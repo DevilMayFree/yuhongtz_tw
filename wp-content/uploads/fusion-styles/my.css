@@ -1,0 +1,112 @@
+
+#boxed-wrapper {
+    overflow-x: hidden;
+    overflow-x: clip
+}
+
+#wrapper {
+    overflow: visible
+}
+
+#wrapper .tp-bullets {
+    transform: translateZ(0)
+}
+
+#wrapper .strip-html .fusion-dropcap {
+    top: 0;
+    float: none;
+    margin: 0;
+    padding: 0;
+    background-color: inherit !important;
+    box-shadow: none;
+    line-height: inherit;
+    text-shadow: none;
+    color: inherit !important;
+    font-size: inherit
+}
+
+#wrapper .strip-html .fusion-highlight {
+    background-color: inherit !important;
+    color: inherit !important
+}
+
+#wrapper .strip-html .fusion-tooltip {
+    color: inherit;
+    border-bottom: 1px dotted
+}
+
+
+.fusion-page-title-bar {
+    border: none;
+    --page_title_height: 320px;
+    --page_title_mobile_height: 260px;
+    --page_title_bg_color: var(--awb-color4);
+    --page_title_border_color: rgba(226, 226, 226, 0);
+    --page_title_font_size: 60px;
+    --page_title_line_height: 70px;
+    --page_title_color: var(--awb-custom1);
+    --page_title_subheader_font_size: 18px;
+    --page_title_subheader_color: var(--awb-custom1);
+    --page_title_bg: none;
+    --page_title_bg_retina: var(--page_title_bg);
+}
+
+
+
+.fusion-page-title-bar, .fusion-breadcrumbs .awb-breadcrumb-sep {
+    --breadcrumbs_separator: " • ";
+}
+
+.fusion-page-title-bar, .fusion-breadcrumbs {
+    --breadcrumbs_font_size: 14px;
+    --breadcrumbs_text_color: var(--awb-color8);
+    --breadcrumbs_text_hover_color: var(--awb-color7);
+}
+
+.fusion-fullwidth {
+    position: relative
+}
+
+.fusion-fullwidth .fusion-row {
+    position: relative;
+    z-index: 10
+}
+
+.fusion-fullwidth .fullwidth-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    min-height: 100%;
+    min-width: 100%;
+    -webkit-transform-style: preserve-3d;
+    overflow: hidden
+}
+
+.fusion-fullwidth .fullwidth-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    min-height: 100%;
+    min-width: 100%
+}
+
+.fusion-fullwidth .fullwidth-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    height: 100%;
+    width: 100%
+}
+
+.fusion-fullwidth.faded-background .fullwidth-faded {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    min-height: 100%;
+    min-width: 100%
+}
+
