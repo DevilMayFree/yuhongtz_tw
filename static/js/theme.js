@@ -311,7 +311,8 @@
 			});	
 			
 			/*==== Bootstrap Accordion  ====*/
-			$('.faq-part .card').each(function () {
+	// disable
+			/*$('.faq-part .card').each(function () {
 				var $this = $(this);
 				$this.on('click', function (e) {
 					var has = $this.hasClass('active');
@@ -323,7 +324,7 @@
 						$this.addClass('active ');
 					}
 				});
-			});
+			});*/
 			
 			/*==== counter active ====*/
 				
